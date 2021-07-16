@@ -1,7 +1,3 @@
-<button id="botaoEnviar" class="botao2" onclick="salvaContatoLocalStorage()">
-  Enviar
-</button>;
-
 function salvaContatoLocalStorage() {
   const nome = document.getElementById("nome").value;
   const email = document.getElementById("email").value;
