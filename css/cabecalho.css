@@ -1,0 +1,46 @@
+body {
+  color: rgb(26, 26, 26);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 70%;
+}
+
+.logomarca {
+  width: 230.39px;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  font-size: 1.2em;
+}
+
+.item {
+  letter-spacing: 0;
+  margin-right: 30px;
+}
+
+.link:hover {
+  border-bottom: 3px solid rgb(0, 23, 56);
+  padding: 8px 0;
+}
+
+.botao {
+  background-color: rgb(255, 204, 51);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 15px 12px;
+}
+
+.botao:hover {
+  background-color: rgb(82, 209, 66);
+}

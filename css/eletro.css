@@ -1,0 +1,71 @@
+.eletro {
+  background: url("../img/bg1.jpg") no-repeat;
+  padding: 70px 0;
+  width: 100%;
+  color: rgb(26, 26, 26);
+}
+
+.eletro h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.cards2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.card2 {
+  background-color: whitesmoke;
+  height: 500px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.cards2 h3 {
+  color: rgb(26, 26, 26);
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.card2 p {
+  line-height: 1.2;
+  padding: 10px 20px;
+  padding-bottom: 40px;
+}
+
+.card2 h4 {
+  font-weight: bold;
+  color: lightgray;
+  padding: 8px 20px;
+}
+
+.card2 h4:hover {
+  filter: brightness(80%);
+}
+
+.card2 a {
+  background-color: rgb(26, 26, 26);
+  border-radius: 5px;
+  border: 3px solid rgb(26, 26, 26);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 12px;
+  margin: 20px;
+}
+
+.card2 a:hover {
+  filter: opacity(90%);
+}
+
+.card2 img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}

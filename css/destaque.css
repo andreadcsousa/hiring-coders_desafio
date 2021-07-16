@@ -1,0 +1,113 @@
+.container {
+  color: whitesmoke;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.destaque {
+  background: rgb(0, 23, 56);
+  background: linear-gradient(
+    300deg,
+    rgba(0, 23, 56, 1) 0%,
+    rgba(39, 63, 85, 1) 35%,
+    rgba(18, 95, 136, 1) 100%
+  );
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.apresentacao1 {
+  width: 30%;
+}
+
+.apresentacao1 img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.apresentacao1 img:hover {
+  filter: brightness(90%);
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.apresentacao1 p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.botao2 {
+  color: rgb(26, 26, 26);
+  background-color: rgb(255, 204, 51);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 12px;
+  margin-right: 20px;
+}
+
+.botao2:hover {
+  filter: brightness(90%);
+}
+
+.link2 {
+  font-weight: bold;
+}
+
+.link2:hover {
+  border-bottom: 2px solid #fff;
+  padding: 5px 0;
+}
+
+.apresentacao2 {
+  width: 20%;
+  background: rgb(0, 0, 0, 0.2);
+  height: 50vh;
+  margin: 0;
+  padding: 60px;
+  box-shadow: 0.5px 0.5px 10px #000;
+  border-radius: 10px;
+}
+
+.apresentacao2 p {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formulario button {
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}

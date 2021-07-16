@@ -1,0 +1,28 @@
+.contato {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/oficina.jpg") no-repeat center;
+  color: #f5f5f5;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 350px 0;
+}
+
+.contato h2 {
+  font-size: 4em;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.contato p {
+  font-size: 1.5em;
+  line-height: 1.4;
+  text-shadow: 3px 3px 5px #000;
+  margin-bottom: 40px;
+}
+
+.contato a {
+  font-size: 1.2em;
+  color: rgb(26, 26, 26);
+}

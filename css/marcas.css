@@ -1,0 +1,47 @@
+.marcas {
+  color: rgb(26, 26, 26);
+  padding: 70px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.marcas h2 {
+  font-size: 2.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.cards1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.card1 {
+  width: 20%;
+}
+
+.marcas h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.card1 p {
+  line-height: 1.2;
+}
+
+.card1 img {
+  width: 100px;
+  transition: 0.3ms;
+}
+
+.card1 img:hover {
+  width: 110px;
+  margin-bottom: -10px;
+}
